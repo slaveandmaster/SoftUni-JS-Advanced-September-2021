@@ -1,0 +1,24 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "type": "node",
+        "request": "launch",
+        "name": "Mocha Tests",
+        "cwd": "${workspaceFolder}/nodejs/",
+        "program": "${workspaceFolder}/node_modules/mocha/bin/mocha",
+        "args": [
+          "-u",
+          "tdd",
+          "--timeout",
+          "999999",
+          "--colors",
+          "${workspaceFolder}/nodejs/**/*.test.js"
+        ],
+        "internalConsoleOptions": "openOnSessionStart",
+        "skipFiles": [
+          "<node_internals>/**"
+        ]
+      }
+    ]
+  }

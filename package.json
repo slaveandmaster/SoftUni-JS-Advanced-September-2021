@@ -1,0 +1,25 @@
+{
+  "name": "SoftUni-JS-Advanced-September-2021",
+  "version": "1.0.0",
+  "description": "SoftUni-JS-Advanced-September-2021",
+  "main": "index.js",
+  "dependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.1.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/slaveandmaster/SoftUni-JS-Advanced-September-2021.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/slaveandmaster/SoftUni-JS-Advanced-September-2021/issues"
+  },
+  "homepage": "https://github.com/slaveandmaster/SoftUni-JS-Advanced-September-2021#readme"
+}
